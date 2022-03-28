@@ -2,5 +2,9 @@
   "block.kiln.kiln": "Kiln",
   "container.kiln.kiln": "Kiln",
   "gui.recipebook.toggleRecipes.firable": "Showing Firable",
-  "category.kiln.firing": "Firing"
+  "category.kiln.firing": "Firing",
+
+  "text.autoconfig.kiln.title": "Kiln",
+  "text.autoconfig.kiln.option.debugMode": "Debug Mode",
+  "text.autoconfig.kiln.option.autoFireUp": "Auto Fire Up In Hot Biomes"
 }

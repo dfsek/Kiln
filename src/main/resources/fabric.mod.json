@@ -4,29 +4,45 @@
   "version": "${version}",
 
   "name": "Kiln",
-  "icon": "assets/kiln/textures/block/kiln_on.png",
-  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more. Request from BluKat.",
-  "license": "MIT",
+  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more.",
+  "authors": [
+    "ZestyBlaze",
+    "LemmaEOF"
+  ],
   "contact": {
-    "sources": "https://github.com/Boundarybreaker/Kiln"
+    "homepage": "",
+    "sources": "https://github.com/ZestyBlaze/Kiln-Refired",
+    "issues": "https://github.com/ZestyBlaze/Kiln-Refired/issues"
   },
+
+  "license": "MIT License",
+  "icon": "icon.png",
+
   "environment": "*",
   "entrypoints": {
     "main": [
-      "space.bbkr.kiln.Kiln"
+      "net.zestyblaze.kiln.Kiln"
     ],
     "client": [
-      "space.bbkr.kiln.client.KilnClient"
+      "net.zestyblaze.kiln.client.KilnClient"
     ],
-    "rei_plugins": [
-      "space.bbkr.kiln.compat.rei.KilnREIPlugin"
+    "modmenu": [
+      "net.zestyblaze.kiln.integration.ModMenuIntegration"
+    ],
+    "rei": [
+      "net.zestyblaze.kiln.integration.rei.REIPlugin"
     ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "cloth-config2": ">=6.1.48"
   },
   "mixins": [
     "mixins.kiln.json"
   ],
-  "accessWidener": "kiln.accesswidener",
-  "depends": {
-    "fabricloader": ">=0.4.0"
-  }
+  "accessWidener": "kiln.accesswidener"
 }

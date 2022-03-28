@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "#F#",
+    "#f#",
     "###"
   ],
   "key": {
     "#": {
       "item": "minecraft:brick"
     },
-    "F": {
+    "f": {
       "item": "minecraft:furnace"
     }
   },
   "result": {
-    "item": "kiln:kiln",
-    "count": 1
+    "item": "kiln:kiln"
   }
 }
