@@ -3,6 +3,7 @@
   "container.kiln.kiln": "Kiln",
   "gui.recipebook.toggleRecipes.firable": "Showing Firable",
   "category.kiln.firing": "Firing",
+  "stat.kiln.interact_with_kiln": "Interactions with Kiln",
 
   "text.autoconfig.kiln.title": "Kiln",
   "text.autoconfig.kiln.option.debugMode": "Debug Mode",

@@ -4,15 +4,15 @@
   "version": "${version}",
 
   "name": "Kiln",
-  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more.",
+  "description": "Companion to smoker and blast furnace for smelting stones, sands, bricks, and more. Request from BluKat.",
   "authors": [
     "ZestyBlaze",
     "LemmaEOF"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "https://github.com/ZestyBlaze/Kiln-Refired",
-    "issues": "https://github.com/ZestyBlaze/Kiln-Refired/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/kiln-fabric",
+    "sources": "https://github.com/LemmaEOF/Kiln/tree/1.18",
+    "issues": "https://github.com/LemmaEOF/Kiln/tree/1.18"
   },
 
   "license": "MIT License",
@@ -41,8 +41,5 @@
     "java": ">=17",
     "cloth-config2": ">=6.1.48"
   },
-  "mixins": [
-    "mixins.kiln.json"
-  ],
   "accessWidener": "kiln.accesswidener"
 }
