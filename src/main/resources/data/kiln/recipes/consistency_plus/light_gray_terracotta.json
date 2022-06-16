@@ -1,0 +1,9 @@
+{
+	"type": "kiln:firing",
+	"ingredient": {
+		"item": "consistency_plus:cobbled_light_gray_terracotta"
+	},
+	"result": "minecraft:light_gray_terracotta",
+	"experience": 0.1,
+	"cookingtime": 100
+}

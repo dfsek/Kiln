@@ -1,0 +1,9 @@
+{
+	"type": "kiln:firing",
+	"ingredient": {
+		"item": "ae2:sky_stone_block"
+	},
+	"result": "ae2:smooth_sky_stone_block",
+	"experience": 0.35,
+	"cookingtime": 100
+}
