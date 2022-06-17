@@ -1,5 +1,13 @@
 {
 	"type": "kiln:firing",
+	"fabric:load_conditions": [
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": [
+				"biomemakeover"
+			]
+		}
+	],
 	"ingredient": {
 		"item": "biomemakeover:dried_peat_bricks"
 	},

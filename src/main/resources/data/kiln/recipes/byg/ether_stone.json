@@ -1,4 +1,4 @@
-{
+{ "fabric:load_conditions": [ { "condition": "fabric:all_mods_loaded", "values": [ "byg" ] } ],
 	"type": "kiln:firing",
 	"ingredient": {
 		"item": "byg:cobbled_ether_stone"

@@ -1,4 +1,4 @@
-{
+{ "fabric:load_conditions": [ { "condition": "fabric:all_mods_loaded", "values": [ "consistency_plus" ] } ],
 	"type": "kiln:firing",
 	"ingredient": {
 		"item": "consistency_plus:cobbled_tuff"
